@@ -234,7 +234,7 @@ See the single line of shortcuts at the bottom? That's the TUI, and it will neve
 
 ```bash
 # Run this line to see it in action!
-bl better_launch 02_ui.py
+bl better_launch 02_ui.launch.py
 ```
 
 The TUI is also able to manage nodes started from different shells and processes, even if they have been started by ROS2 or other means. To do so, pass the `manage_foreign_nodes` flag to the wrapper or command line. Be aware though that this will not capture their output - to get their output you will have to use the *takeover* action from the TUI, which will restart the node process with the original arguments.
